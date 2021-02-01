@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{04F63FD6-98C0-4C9C-A33C-ADB1919D6291}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoftlightFims</RootNamespace>
+    <AssemblyName>SoftlightFims</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BehindTheMovement.html" />
+    <Content Include="CampusScreenings.html" />
+    <Content Include="ContactUs.html" />
+    <Content Include="Concept.html" />
+    <Content Include="CSS\softlight.css" />
+    <Content Include="CSS\style1.css" />
+    <Content Include="fonts\SIL Open Font License.txt" />
+    <Content Include="JS\index.js" />
+    <Content Include="resources\bg-1.jpg" />
+    <Content Include="resources\bg-2.jpg" />
+    <Content Include="resources\bg.jpg" />
+    <Content Include="resources\images\border.png" />
+    <Content Include="resources\images\clouds.jpg" />
+    <Content Include="resources\images\Crew\Akshay.jpg" />
+    <Content Include="resources\images\Crew\Amit.jpg" />
+    <Content Include="resources\images\Crew\BTM Team Collage.png" />
+    <Content Include="resources\images\Crew\BTMP10.png" />
+    <Content Include="resources\images\Crew\BTMP11.png" />
+    <Content Include="resources\images\Crew\Dhanadeep.jpg" />
+    <Content Include="resources\images\Crew\Ishan.jpg" />
+    <Content Include="resources\images\Crew\Krishanu.jpg" />
+    <Content Include="resources\images\Crew\Nishant.jpg" />
+    <Content Include="resources\images\Crew\Rahul.jpg" />
+    <Content Include="resources\images\Crew\Riya.jpg" />
+    <Content Include="resources\images\Crew\Shantanu.jpg" />
+    <Content Include="resources\images\Crew\Shayan.jpg" />
+    <Content Include="resources\images\Crew\Shivani.jpg" />
+    <Content Include="resources\images\Crew\Somya.jpg" />
+    <Content Include="resources\images\favicon.png" />
+    <Content Include="resources\images\gear-icon.png" />
+    <Content Include="resources\images\Logo %281%29.png" />
+    <Content Include="resources\images\Logo %282%29.png" />
+    <Content Include="resources\images\logo.png" />
+    <Content Include="resources\images\Sequence\Seq %281%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2810%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2811%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2812%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2813%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2814%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2815%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2816%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2817%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2818%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2819%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %282%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2820%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2821%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2822%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2823%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2824%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2825%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2826%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2827%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2828%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2829%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %283%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2830%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2831%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2832%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2833%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2834%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2835%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2836%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2837%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2838%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2839%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %284%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2840%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2841%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2842%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2843%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2844%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2845%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2846%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2847%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2848%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2849%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %285%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2850%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2851%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2852%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2853%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2854%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2855%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2856%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2857%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2858%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2859%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %286%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2860%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2861%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2862%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2863%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2864%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2865%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2866%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2867%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2868%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2869%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %287%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2870%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2871%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2872%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2873%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2874%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2875%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2876%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2877%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2878%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2879%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %288%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2880%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2881%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2882%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2883%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2884%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2885%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2886%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2887%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2888%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2889%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %289%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2890%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2891%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2892%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2893%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2894%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2895%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2896%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2897%29.jpg" />
+    <Content Include="resources\images\Sequence\Seq %2898%29.jpg" />
+    <Content Include="resources\poster\BTM Cover 2.png" />
+    <Content Include="resources\poster\BTM Cover.PNG" />
+    <Content Include="resources\poster\BTM Poster.PNG" />
+    <Content Include="resources\poster\BTMP1.png" />
+    <Content Include="resources\poster\BTMP12.png" />
+    <Content Include="resources\poster\BTMP2.png" />
+    <Content Include="resources\poster\BTMP3.png" />
+    <Content Include="resources\poster\BTMP4.png" />
+    <Content Include="resources\poster\BTMP5.png" />
+    <Content Include="resources\poster\BTMP6.png" />
+    <Content Include="resources\poster\BTMP7.png" />
+    <Content Include="resources\poster\BTMP8.PNG" />
+    <Content Include="resources\poster\BTMP9.png" />
+    <Content Include="resources\scroll.png" />
+    <Content Include="Script.html" />
+    <Content Include="Donors.html" />
+    <Content Include="FirstLook.html" />
+    <Content Include="Crew.html" />
+    <Content Include="CSS\style.css" />
+    <Content Include="DocumentryPremier.html" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\proximanova-black-webfont.svg" />
+    <Content Include="fonts\proximanova-extrabold-webfont.svg" />
+    <Content Include="fonts\proximanova-regular-webfont.svg" />
+    <Content Include="Gallery.html" />
+    <Content Include="index.html" />
+    <Content Include="SoftlightFilms.html" />
+    <Content Include="TrailerLaunch.html" />
+    <Content Include="WatchTrailer.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\BebasNeue-Regular.otf" />
+    <Content Include="fonts\Blackout.ttf" />
+    <Content Include="fonts\Captureit.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\proximanova-black-webfont.eot" />
+    <Content Include="fonts\proximanova-black-webfont.ttf" />
+    <Content Include="fonts\proximanova-black-webfont.woff" />
+    <Content Include="fonts\proximanova-black-webfont.woff2" />
+    <Content Include="fonts\proximanova-extrabold-webfont.eot" />
+    <Content Include="fonts\proximanova-extrabold-webfont.ttf" />
+    <Content Include="fonts\proximanova-extrabold-webfont.woff" />
+    <Content Include="fonts\proximanova-extrabold-webfont.woff2" />
+    <Content Include="fonts\proximanova-regular-webfont.eot" />
+    <Content Include="fonts\proximanova-regular-webfont.ttf" />
+    <Content Include="fonts\proximanova-regular-webfont.woff" />
+    <Content Include="fonts\proximanova-regular-webfont.woff2" />
+    <Content Include="fonts\Oswald-Bold.ttf" />
+    <Content Include="fonts\Oswald-BoldItalic.ttf" />
+    <Content Include="fonts\Oswald-Demi-BoldItalic.ttf" />
+    <Content Include="fonts\Oswald-DemiBold.ttf" />
+    <Content Include="fonts\Oswald-Extra-LightItalic.ttf" />
+    <Content Include="fonts\Oswald-ExtraLight.ttf" />
+    <Content Include="fonts\Oswald-Heavy.ttf" />
+    <Content Include="fonts\Oswald-HeavyItalic.ttf" />
+    <Content Include="fonts\Oswald-Light.ttf" />
+    <Content Include="fonts\Oswald-LightItalic.ttf" />
+    <Content Include="fonts\Oswald-Medium.ttf" />
+    <Content Include="fonts\Oswald-MediumItalic.ttf" />
+    <Content Include="fonts\Oswald-Regular.ttf" />
+    <Content Include="fonts\Oswald-RegularItalic.ttf" />
+    <Content Include="fonts\Oswald-Stencil.ttf" />
+    <None Include="Properties\PublishProfiles\SoftlightFilms.pubxml" />
+    <Content Include="resources\poster.zip" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58204/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
